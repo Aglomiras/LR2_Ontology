@@ -1,0 +1,1884 @@
+{
+  "acLineSegment" : [ {
+    "name" : "Line1",
+    "length" : {
+      "value" : 40.0
+    },
+    "r" : {
+      "value" : 4.64
+    },
+    "r0" : {
+      "value" : 46.4
+    },
+    "x" : {
+      "value" : 16.0
+    },
+    "x0" : {
+      "value" : 48.0
+    },
+    "bch" : {
+      "value" : 108.0
+    },
+    "b0ch" : {
+      "value" : 90.0
+    },
+    "baseVoltageId" : "e6240428-fe41-4cb9-80d2-52bd2bbe2c03",
+    "mrid" : "90f315fa-688b-4b79-9997-2a17251af71f"
+  }, {
+    "name" : "Line2",
+    "length" : {
+      "value" : 40.0
+    },
+    "r" : {
+      "value" : 4.64
+    },
+    "r0" : {
+      "value" : 46.4
+    },
+    "x" : {
+      "value" : 16.0
+    },
+    "x0" : {
+      "value" : 48.0
+    },
+    "bch" : {
+      "value" : 108.0
+    },
+    "b0ch" : {
+      "value" : 90.0
+    },
+    "baseVoltageId" : "e6240428-fe41-4cb9-80d2-52bd2bbe2c03",
+    "mrid" : "aa0701d7-dd51-4ebd-99b8-83d85d78a8ef"
+  } ],
+  "baseFrequencies" : [ {
+    "frequency" : {
+      "value" : 50.0
+    },
+    "mrid" : "44828d3c-9052-4599-b79d-bbe0ecb86d06"
+  } ],
+  "baseVoltages" : [ {
+    "name" : "110кВ",
+    "nominalVoltage" : {
+      "value" : 110.0
+    },
+    "mrid" : "e6240428-fe41-4cb9-80d2-52bd2bbe2c03"
+  }, {
+    "name" : "10кВ",
+    "nominalVoltage" : {
+      "value" : 10.0
+    },
+    "mrid" : "9fd0eedd-2fbb-4160-86ba-5d577108df8d"
+  } ],
+  "breakers" : [ {
+    "name" : "Q1",
+    "open" : {
+      "value" : false
+    },
+    "ratedCurrent" : {
+      "value" : 100.0
+    },
+    "mrid" : "7c5e9319-8816-488f-a632-2e9b78e0c9da"
+  }, {
+    "name" : "Q2",
+    "open" : {
+      "value" : false
+    },
+    "ratedCurrent" : {
+      "value" : 100.0
+    },
+    "mrid" : "97a816c3-293b-4b47-9977-3a2908e85731"
+  }, {
+    "name" : "QS1",
+    "open" : {
+      "value" : true
+    },
+    "ratedCurrent" : {
+      "value" : 100.0
+    },
+    "mrid" : "824916bf-0d81-4773-8fc8-ac01c6a4be8e"
+  }, {
+    "name" : "Q5",
+    "open" : {
+      "value" : false
+    },
+    "ratedCurrent" : {
+      "value" : 100.0
+    },
+    "mrid" : "89a61c9e-9750-4ada-b4f6-399fdbab6391"
+  }, {
+    "name" : "Q6",
+    "open" : {
+      "value" : false
+    },
+    "ratedCurrent" : {
+      "value" : 100.0
+    },
+    "mrid" : "7c3005c8-ed08-47e0-bbcc-8eb933dd719f"
+  }, {
+    "name" : "Q3",
+    "open" : {
+      "value" : false
+    },
+    "ratedCurrent" : {
+      "value" : 100.0
+    },
+    "mrid" : "745fe861-3a8c-4d00-8f15-8c6d7474bdf2"
+  }, {
+    "name" : "Q4",
+    "open" : {
+      "value" : false
+    },
+    "ratedCurrent" : {
+      "value" : 100.0
+    },
+    "mrid" : "4e822b92-09f8-4c06-8b4b-f500c16804fc"
+  }, {
+    "name" : "QS2",
+    "open" : {
+      "value" : true
+    },
+    "ratedCurrent" : {
+      "value" : 100.0
+    },
+    "mrid" : "2347dcfc-8989-40cc-a77c-18311074387b"
+  }, {
+    "name" : "Q7",
+    "open" : {
+      "value" : false
+    },
+    "ratedCurrent" : {
+      "value" : 100.0
+    },
+    "mrid" : "845f803a-6f15-4f84-a016-0880401e1762"
+  }, {
+    "name" : "Q8",
+    "open" : {
+      "value" : false
+    },
+    "ratedCurrent" : {
+      "value" : 100.0
+    },
+    "mrid" : "1ee8d50a-ba5a-4f26-93da-47afa5855fcc"
+  } ],
+  "busbarSections" : [ {
+    "name" : "BUS1",
+    "mrid" : "3a450446-b829-4727-b4d8-aa4002ae07c3"
+  }, {
+    "name" : "BUS3",
+    "mrid" : "ec100d29-212b-4269-a835-780e2f8420e3"
+  }, {
+    "name" : "BUS2",
+    "mrid" : "5dc6dcbe-17df-4a9c-9f37-972c2df36d29"
+  }, {
+    "name" : "BUS4",
+    "mrid" : "165a49a5-1f4e-4173-8ba1-69ba45471707"
+  } ],
+  "connectivityNodes" : [ {
+    "mrid" : "914713c4-10e6-4f3d-9242-aa599e6d8d47"
+  }, {
+    "mrid" : "b19af0e6-3fe3-4c2f-b8d6-fc01790a612f"
+  }, {
+    "mrid" : "32724271-251a-48ed-813b-f69117d603b5"
+  }, {
+    "mrid" : "a5aada6f-adb7-429d-9b52-a85d42216076"
+  }, {
+    "mrid" : "a264cca3-fbbb-4b4b-a7b8-5d581bd7daa9"
+  }, {
+    "mrid" : "06f779ca-7872-4b22-8308-51161080d047"
+  }, {
+    "mrid" : "ed18cac4-8ab6-45d9-8474-b8c2d5f5e7e2"
+  }, {
+    "mrid" : "0582a6dc-9ca2-441d-a013-39920d189b44"
+  }, {
+    "mrid" : "aa3c1abc-30ff-4163-8ab6-db197480d5d7"
+  }, {
+    "mrid" : "387100a3-510f-4b96-9330-e9bc1dbb7329"
+  }, {
+    "mrid" : "9e07181a-9026-43c0-a79a-dd8a423a7df3"
+  }, {
+    "mrid" : "1e63f200-bc71-4b54-bdb6-32b376532bf3"
+  }, {
+    "mrid" : "0cd26b28-e96f-428d-bddf-c900d82e0ce6"
+  }, {
+    "mrid" : "71fab027-103e-4b9c-8c8c-28aa3ab70083"
+  } ],
+  "diagrams" : [ {
+    "x1InitialView" : {
+      "value" : 0.0
+    },
+    "y1InitialView" : {
+      "value" : 0.0
+    },
+    "x2InitialView" : {
+      "value" : -37.142735
+    },
+    "y2InitialView" : {
+      "value" : 61.40247
+    },
+    "mrid" : "00df586d-8435-4aff-a8da-25429fe574ed"
+  } ],
+  "diagramObjects" : [ {
+    "rotation" : {
+      "value" : 180
+    },
+    "mrid" : "dd37e29c-ae81-4a50-8874-18685ab97609"
+  }, {
+    "rotation" : {
+      "value" : 0
+    },
+    "mrid" : "9a384f99-c691-453e-a941-aeb075e803df"
+  }, {
+    "rotation" : {
+      "value" : 0
+    },
+    "mrid" : "d2f43baf-4247-4318-a194-c5625945edf1"
+  }, {
+    "rotation" : {
+      "value" : 0
+    },
+    "mrid" : "d505f5a2-c528-44fd-8ea5-19d31d6ab45d"
+  }, {
+    "rotation" : {
+      "value" : 0
+    },
+    "mrid" : "441d88ad-1a0a-4fbd-b3ef-a2e89ef74d9f"
+  }, {
+    "rotation" : {
+      "value" : 0
+    },
+    "mrid" : "d36f1402-59de-4ac8-a0ff-2293edeb7b46"
+  }, {
+    "rotation" : {
+      "value" : 0
+    },
+    "mrid" : "5d0eb8d6-1af8-4429-bab8-682d6856b4dc"
+  }, {
+    "rotation" : {
+      "value" : 0
+    },
+    "mrid" : "e39b7f6e-2168-4b6e-b437-0219b4e11227"
+  }, {
+    "rotation" : {
+      "value" : 0
+    },
+    "mrid" : "3977d7d6-07c5-4164-b7fd-4b7a46f1bd8a"
+  }, {
+    "rotation" : {
+      "value" : 0
+    },
+    "mrid" : "0c599d2f-b703-4058-b719-6c48e946b7c4"
+  }, {
+    "rotation" : {
+      "value" : 180
+    },
+    "mrid" : "9bc42144-8d2a-4de4-b350-9a5d59b878e1"
+  }, {
+    "rotation" : {
+      "value" : 0
+    },
+    "mrid" : "d8a5c8f6-5adb-4e9b-a424-c9d141617384"
+  }, {
+    "rotation" : {
+      "value" : 0
+    },
+    "mrid" : "e5e644f6-6d15-4201-aa83-739d90bc443a"
+  }, {
+    "rotation" : {
+      "value" : 0
+    },
+    "mrid" : "9e230652-3585-4615-8e9c-b69164947dd1"
+  }, {
+    "rotation" : {
+      "value" : 0
+    },
+    "mrid" : "58649e1b-d9f6-41a6-9f98-85219024408c"
+  }, {
+    "rotation" : {
+      "value" : 0
+    },
+    "mrid" : "9c408144-2539-4604-a931-55b2bc1d7779"
+  }, {
+    "rotation" : {
+      "value" : 0
+    },
+    "mrid" : "32af75e6-1b7e-42bb-839d-d37f666e728a"
+  }, {
+    "rotation" : {
+      "value" : 0
+    },
+    "mrid" : "6671bcb7-1a5b-4d20-aa5b-82b58b0a27a3"
+  }, {
+    "rotation" : {
+      "value" : 0
+    },
+    "mrid" : "7f0cfb80-9b99-431e-a217-c4bfeaab269d"
+  }, {
+    "rotation" : {
+      "value" : 0
+    },
+    "mrid" : "5407225f-190a-4eb4-a4a4-9456fb902ab7"
+  }, {
+    "rotation" : {
+      "value" : 90
+    },
+    "mrid" : "98bb59cd-bb6c-4f8f-9486-007739fb3b62"
+  }, {
+    "rotation" : {
+      "value" : 90
+    },
+    "mrid" : "9404b23f-bf16-472e-8d4e-8cdf6c9e0c87"
+  } ],
+  "diagramObjectPoints" : [ {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "ead42540-cc5f-43e7-9694-6cf8eba20767",
+    "xposition" : {
+      "value" : 439.09033
+    },
+    "yposition" : {
+      "value" : -102.44137
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "475151ce-f8c5-4840-bcad-5c14825cf186",
+    "xposition" : {
+      "value" : 562.08594
+    },
+    "yposition" : {
+      "value" : -31.437487
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "c00cd812-410b-49cf-8a4e-50f9b67936f4",
+    "xposition" : {
+      "value" : 561.7578
+    },
+    "yposition" : {
+      "value" : 1.3203061
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "af7595d5-39ab-4d17-97db-7ad0814d7b56",
+    "xposition" : {
+      "value" : 502.99985
+    },
+    "yposition" : {
+      "value" : 72.34205
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "6bc759d0-82c8-45d5-a459-68b20e84d9dc",
+    "xposition" : {
+      "value" : 561.9922
+    },
+    "yposition" : {
+      "value" : 83.33595
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "6ef56963-4f87-4fb6-9f07-d51d4c3a6f0f",
+    "xposition" : {
+      "value" : 561.7578
+    },
+    "yposition" : {
+      "value" : 61.32031
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "dcaf6e0a-5cec-4742-b9ca-9a44ad98d2e4",
+    "xposition" : {
+      "value" : 561.9922
+    },
+    "yposition" : {
+      "value" : 143.33595
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "d71692b5-8624-4429-b901-277b8afd178f",
+    "xposition" : {
+      "value" : 566.14844
+    },
+    "yposition" : {
+      "value" : 182.40627
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "20e9793f-e660-420a-b971-abc2b42c9043",
+    "xposition" : {
+      "value" : 552.65125
+    },
+    "yposition" : {
+      "value" : 151.91237
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "85cf760c-b663-44b7-9414-d5adb845ca33",
+    "xposition" : {
+      "value" : 550.65125
+    },
+    "yposition" : {
+      "value" : 151.91237
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 3
+    },
+    "mrid" : "8462d702-3cd7-4210-85d0-86cf4f4f25fc",
+    "xposition" : {
+      "value" : 623.9556
+    },
+    "yposition" : {
+      "value" : 151.91237
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "0d854cf1-2b95-4e67-b152-42f521a73e93",
+    "xposition" : {
+      "value" : 501.4596
+    },
+    "yposition" : {
+      "value" : 206.1888
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "e4932354-0a2c-4231-8d95-8e344f1b9776",
+    "xposition" : {
+      "value" : 560.4531
+    },
+    "yposition" : {
+      "value" : 217.18752
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "e6e66664-015a-45b1-b0f6-f4cfa3bceda4",
+    "xposition" : {
+      "value" : 564.14844
+    },
+    "yposition" : {
+      "value" : 182.40627
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "6c6e5d39-bdac-4c16-a49a-ae67b5d84d82",
+    "xposition" : {
+      "value" : 560.4531
+    },
+    "yposition" : {
+      "value" : 277.18753
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "d2556ee3-716b-437e-8069-4e0b67cf7bbf",
+    "xposition" : {
+      "value" : 560.6225
+    },
+    "yposition" : {
+      "value" : 326.54688
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "46c955cc-4712-4e5e-9544-c5aae8e254a9",
+    "xposition" : {
+      "value" : 498.06488
+    },
+    "yposition" : {
+      "value" : 315.54797
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "446b88d7-ba5a-4a0e-a229-086d72cb8cb2",
+    "xposition" : {
+      "value" : 560.6225
+    },
+    "yposition" : {
+      "value" : 326.54688
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "d25e7a4b-11fe-4e16-a0db-1aef9250b4e0",
+    "xposition" : {
+      "value" : 560.4531
+    },
+    "yposition" : {
+      "value" : 277.18753
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "3a583f77-c5f7-4488-87ea-e2b1c0e31ca6",
+    "xposition" : {
+      "value" : 560.6225
+    },
+    "yposition" : {
+      "value" : 462.5469
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "79da7548-abe3-419b-957a-a22e729ef0f1",
+    "xposition" : {
+      "value" : 560.0
+    },
+    "yposition" : {
+      "value" : 501.26572
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "a8dc747a-b4a7-4161-9626-b401347676d4",
+    "xposition" : {
+      "value" : 501.00436
+    },
+    "yposition" : {
+      "value" : 490.2727
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "458c1812-0fff-4fdf-96d3-632270c04f50",
+    "xposition" : {
+      "value" : 560.0
+    },
+    "yposition" : {
+      "value" : 501.26572
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "45fa3940-582b-4dce-aa17-336d5866e488",
+    "xposition" : {
+      "value" : 560.6225
+    },
+    "yposition" : {
+      "value" : 462.5469
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "c66704a2-1146-4761-9c16-7661518b26b1",
+    "xposition" : {
+      "value" : 560.0
+    },
+    "yposition" : {
+      "value" : 561.2656
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "1651c08a-51e8-4cb5-89d1-4addbea7e661",
+    "xposition" : {
+      "value" : 562.0
+    },
+    "yposition" : {
+      "value" : 602.3828
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "21b487fc-000e-44e7-b7ac-06deca7d4df2",
+    "xposition" : {
+      "value" : 548.50665
+    },
+    "yposition" : {
+      "value" : 571.88654
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "f3740bb5-b136-495b-a034-5d7088fc4c92",
+    "xposition" : {
+      "value" : 544.50665
+    },
+    "yposition" : {
+      "value" : 571.88654
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 3
+    },
+    "mrid" : "88ded19c-46ee-4536-bd8c-503922f5b2e1",
+    "xposition" : {
+      "value" : 623.81104
+    },
+    "yposition" : {
+      "value" : 571.88654
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "0ec18025-0ef2-4f2a-8efc-f29c3471951f",
+    "xposition" : {
+      "value" : 500.04367
+    },
+    "yposition" : {
+      "value" : 627.8814
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "af3baee5-16d1-447e-8529-12b13dc2f4be",
+    "xposition" : {
+      "value" : 559.03906
+    },
+    "yposition" : {
+      "value" : 638.875
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "d1f911e4-c487-43df-9645-d34ab28005f8",
+    "xposition" : {
+      "value" : 558.0
+    },
+    "yposition" : {
+      "value" : 602.3828
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "c3cf679e-fdd1-424c-a765-16f78194029b",
+    "xposition" : {
+      "value" : 559.03906
+    },
+    "yposition" : {
+      "value" : 698.875
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "3980a00f-d9cf-4b3d-84a0-76db5ec6613b",
+    "xposition" : {
+      "value" : 560.34686
+    },
+    "yposition" : {
+      "value" : 730.60156
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "fe28b027-3aaf-4a5a-ad39-18f2fb8ba20e",
+    "xposition" : {
+      "value" : 511.3007
+    },
+    "yposition" : {
+      "value" : 719.60767
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "6ddf93d1-2161-49d7-a50b-dda0f93f479f",
+    "xposition" : {
+      "value" : 560.34686
+    },
+    "yposition" : {
+      "value" : 730.60156
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "a686bba7-ea44-4a3c-90ae-be956514d00c",
+    "xposition" : {
+      "value" : 559.03906
+    },
+    "yposition" : {
+      "value" : 698.875
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "8f3ed913-32a4-4e9f-898e-30e7e7ea90bf",
+    "xposition" : {
+      "value" : 550.7654
+    },
+    "yposition" : {
+      "value" : 0.3216838
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "24946c48-f160-4438-8fe3-443d61588c38",
+    "xposition" : {
+      "value" : 561.7578
+    },
+    "yposition" : {
+      "value" : 1.3203061
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "c75add5d-4f45-49f9-b60c-79dc3e891131",
+    "xposition" : {
+      "value" : 562.08594
+    },
+    "yposition" : {
+      "value" : -31.437487
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "84616dd9-9c8f-42dc-a701-e3d2d883ee38",
+    "xposition" : {
+      "value" : 561.7578
+    },
+    "yposition" : {
+      "value" : 61.32031
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "80a4eb44-0eb2-4cbf-84a3-513dca296791",
+    "xposition" : {
+      "value" : 561.9922
+    },
+    "yposition" : {
+      "value" : 83.33595
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "5ec21a85-5aa6-4b98-bb92-de726cdb4d0b",
+    "xposition" : {
+      "value" : 814.6572
+    },
+    "yposition" : {
+      "value" : -106.65412
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "84b41c0f-10d6-49ee-a167-85a92a0a4be1",
+    "xposition" : {
+      "value" : 937.65625
+    },
+    "yposition" : {
+      "value" : -35.648434
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "d9d0f4dc-f7af-483f-8217-cff5add7501e",
+    "xposition" : {
+      "value" : 937.3282
+    },
+    "yposition" : {
+      "value" : -2.8906283
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "db902694-ed30-45ce-ab8c-4aad13ba0a45",
+    "xposition" : {
+      "value" : 878.5668
+    },
+    "yposition" : {
+      "value" : 68.129295
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "43fd9ec8-0ff9-4c29-a82a-816c5b7be80d",
+    "xposition" : {
+      "value" : 937.5625
+    },
+    "yposition" : {
+      "value" : 79.125015
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "d7add751-0c96-4fd1-91f2-8bb3e3e7dffb",
+    "xposition" : {
+      "value" : 937.3282
+    },
+    "yposition" : {
+      "value" : 57.1094
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "f3bb8f86-6352-4ab6-ac1b-323c4f9932d6",
+    "xposition" : {
+      "value" : 937.5625
+    },
+    "yposition" : {
+      "value" : 139.12502
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "487c61be-7bdb-4bbe-a22f-9ba63a4a6eb6",
+    "xposition" : {
+      "value" : 941.71094
+    },
+    "yposition" : {
+      "value" : 178.19534
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "b40220f9-2796-4e44-98f8-3c72b4998e73",
+    "xposition" : {
+      "value" : 928.21814
+    },
+    "yposition" : {
+      "value" : 147.69962
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "7ebae900-cd50-4538-90a4-f461a5f9ea4d",
+    "xposition" : {
+      "value" : 926.21814
+    },
+    "yposition" : {
+      "value" : 147.69962
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 3
+    },
+    "mrid" : "2fb9d966-1b95-409c-aa9e-fb8f043efe81",
+    "xposition" : {
+      "value" : 847.21814
+    },
+    "yposition" : {
+      "value" : 147.69962
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "16a108a2-bea0-49d4-83f9-39af9cc5e51c",
+    "xposition" : {
+      "value" : 877.0265
+    },
+    "yposition" : {
+      "value" : 201.97604
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "9679ca49-4e1f-4173-946b-cfbc0c34dd6a",
+    "xposition" : {
+      "value" : 936.0235
+    },
+    "yposition" : {
+      "value" : 212.96877
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "2d1d2006-846b-4d93-bd34-155a1874edeb",
+    "xposition" : {
+      "value" : 939.711
+    },
+    "yposition" : {
+      "value" : 178.19534
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "fd9c50d9-7135-449b-bbe7-fd66137961ab",
+    "xposition" : {
+      "value" : 936.0235
+    },
+    "yposition" : {
+      "value" : 272.96878
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "d7297e42-3b2d-42ac-bfd8-5669fef89dd4",
+    "xposition" : {
+      "value" : 936.185
+    },
+    "yposition" : {
+      "value" : 322.32812
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "4fdeb21a-09ea-4f1b-8a4a-43f7dc2c8cb4",
+    "xposition" : {
+      "value" : 873.6318
+    },
+    "yposition" : {
+      "value" : 311.33524
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "5d1238f3-7173-4d62-b0a5-1e657a092c0c",
+    "xposition" : {
+      "value" : 936.185
+    },
+    "yposition" : {
+      "value" : 322.32812
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "fa2edd05-88b8-4a14-9801-2b44360b42ce",
+    "xposition" : {
+      "value" : 936.0235
+    },
+    "yposition" : {
+      "value" : 272.96878
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "ad129c3a-b740-4460-ad8b-7eed6a354179",
+    "xposition" : {
+      "value" : 936.185
+    },
+    "yposition" : {
+      "value" : 458.3282
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "f095a323-df4c-4533-a07d-617d54cc9c13",
+    "xposition" : {
+      "value" : 935.5703
+    },
+    "yposition" : {
+      "value" : 497.0547
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "187fc0ea-9fab-46d7-8ab1-77fe190399f4",
+    "xposition" : {
+      "value" : 876.5713
+    },
+    "yposition" : {
+      "value" : 486.05997
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "02ec2941-020d-4f98-98ab-e372e2f10ab6",
+    "xposition" : {
+      "value" : 935.5703
+    },
+    "yposition" : {
+      "value" : 497.0547
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "43d862c4-bef7-4f70-9b6d-93d0c4c787b2",
+    "xposition" : {
+      "value" : 936.185
+    },
+    "yposition" : {
+      "value" : 458.3282
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "a5675594-1564-4ffd-9df2-155ebceb1c7d",
+    "xposition" : {
+      "value" : 935.5703
+    },
+    "yposition" : {
+      "value" : 557.05475
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "515191ad-2a92-435b-9f54-0caaaa85709e",
+    "xposition" : {
+      "value" : 937.5703
+    },
+    "yposition" : {
+      "value" : 598.1719
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "3cbe9be8-d3ff-47f6-90c8-4bd6b4fc88cb",
+    "xposition" : {
+      "value" : 924.07355
+    },
+    "yposition" : {
+      "value" : 567.67377
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "dfe4423f-4b61-4506-a2a4-d6856114b14a",
+    "xposition" : {
+      "value" : 920.07355
+    },
+    "yposition" : {
+      "value" : 567.67377
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 3
+    },
+    "mrid" : "7cc00064-171c-4ebf-9ea4-b5e64b5e0c3c",
+    "xposition" : {
+      "value" : 847.07355
+    },
+    "yposition" : {
+      "value" : 567.67377
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "b2443aa7-4097-452d-ae94-bbd504f63f1f",
+    "xposition" : {
+      "value" : 876.9475
+    },
+    "yposition" : {
+      "value" : 623.6687
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "64844dcc-2e50-4dd2-92fa-c2a7b97b7501",
+    "xposition" : {
+      "value" : 935.9453
+    },
+    "yposition" : {
+      "value" : 634.66406
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "0e12d4a8-ca8a-470b-a0ca-36153a09259c",
+    "xposition" : {
+      "value" : 933.5703
+    },
+    "yposition" : {
+      "value" : 598.1719
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "917443f4-322e-4cd6-a14c-49f45099dfab",
+    "xposition" : {
+      "value" : 935.9453
+    },
+    "yposition" : {
+      "value" : 694.6641
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "38c39fd0-c9ed-4696-8ce6-53cfdfcc8524",
+    "xposition" : {
+      "value" : 934.5735
+    },
+    "yposition" : {
+      "value" : 726.3907
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "bd9fb99e-e315-412b-8f69-c24ec45e46eb",
+    "xposition" : {
+      "value" : 885.5307
+    },
+    "yposition" : {
+      "value" : 715.3949
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "94a73bc9-a43d-4de1-b9fc-cac6884ac9bc",
+    "xposition" : {
+      "value" : 934.5735
+    },
+    "yposition" : {
+      "value" : 726.3907
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "a63f68e0-a5e4-49fb-a596-1a68da1c8108",
+    "xposition" : {
+      "value" : 935.9453
+    },
+    "yposition" : {
+      "value" : 694.6641
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "9bafb94c-33c0-427a-8fe6-92e524f0c1be",
+    "xposition" : {
+      "value" : 926.3323
+    },
+    "yposition" : {
+      "value" : -3.8910668
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "c28525ec-46b9-4d4b-9e93-2f2ce2758f58",
+    "xposition" : {
+      "value" : 937.3282
+    },
+    "yposition" : {
+      "value" : -2.8906283
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "e867a81d-c1c3-4440-b28b-5c8beedf9be6",
+    "xposition" : {
+      "value" : 937.65625
+    },
+    "yposition" : {
+      "value" : -35.648434
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "a5bc5b18-ba40-485a-970c-7fad3ff127c3",
+    "xposition" : {
+      "value" : 937.3282
+    },
+    "yposition" : {
+      "value" : 57.1094
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "647cff45-4d5f-412f-aa1b-cd73ac366bf2",
+    "xposition" : {
+      "value" : 937.5625
+    },
+    "yposition" : {
+      "value" : 79.125015
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "25224ffe-7ecd-4694-9b5d-624bbd4f76df",
+    "xposition" : {
+      "value" : 661.0544
+    },
+    "yposition" : {
+      "value" : 92.32341
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "afe7819e-d945-4e00-9c42-24cfddd53efa",
+    "xposition" : {
+      "value" : 776.0469
+    },
+    "yposition" : {
+      "value" : 146.32033
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "bac5c67c-f7e4-463b-8b10-eea0fb0cedd9",
+    "xposition" : {
+      "value" : 860.711
+    },
+    "yposition" : {
+      "value" : 178.19534
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "60f503a5-39c4-4d75-9399-8c755ae985db",
+    "xposition" : {
+      "value" : 716.0469
+    },
+    "yposition" : {
+      "value" : 146.32033
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "e46d2145-bbd8-44b4-bd1e-4a92802bc5eb",
+    "xposition" : {
+      "value" : 637.4453
+    },
+    "yposition" : {
+      "value" : 182.40627
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "54eddfd3-514d-40b3-8f32-59a679f56be3",
+    "xposition" : {
+      "value" : 668.61224
+    },
+    "yposition" : {
+      "value" : 529.5659
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "3c841495-50d9-45ef-9b29-7c0240da43ff",
+    "xposition" : {
+      "value" : 783.6094
+    },
+    "yposition" : {
+      "value" : 583.5625
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "d72203c2-0a8b-4bdd-a958-fd8ff8cdc3c0",
+    "xposition" : {
+      "value" : 851.89764
+    },
+    "yposition" : {
+      "value" : 596.85046
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 1
+    },
+    "mrid" : "4fb6bacc-ce36-4813-88c4-02299d4c588c",
+    "xposition" : {
+      "value" : 723.6094
+    },
+    "yposition" : {
+      "value" : 583.5625
+    }
+  }, {
+    "sequenceNumber" : {
+      "value" : 2
+    },
+    "mrid" : "32c2199f-5428-40c0-b179-9d699d7a76af",
+    "xposition" : {
+      "value" : 637.9113
+    },
+    "yposition" : {
+      "value" : 598.5624
+    }
+  } ],
+  "energyConsumers" : [ {
+    "name" : "L1",
+    "grounded" : {
+      "value" : false
+    },
+    "pfixed" : {
+      "value" : 13.92
+    },
+    "p" : {
+      "value" : 13.92
+    },
+    "qfixed" : {
+      "value" : 7.89
+    },
+    "q" : {
+      "value" : 7.89
+    },
+    "mrid" : "456f3b43-6576-4169-986c-16c6e99935f8"
+  }, {
+    "name" : "L2",
+    "grounded" : {
+      "value" : false
+    },
+    "pfixed" : {
+      "value" : 13.92
+    },
+    "p" : {
+      "value" : 13.92
+    },
+    "qfixed" : {
+      "value" : 7.89
+    },
+    "q" : {
+      "value" : 7.89
+    },
+    "mrid" : "a8cd2fe2-4704-4e32-93e2-070c48a44941"
+  } ],
+  "equivalentInjections" : [ {
+    "name" : "E1",
+    "r" : {
+      "value" : 0.26167977
+    },
+    "r2" : {
+      "value" : 0.26167977
+    },
+    "x" : {
+      "value" : 4.993148
+    },
+    "x2" : {
+      "value" : 4.993148
+    },
+    "r0" : {
+      "value" : 0.26167977
+    },
+    "x0" : {
+      "value" : 4.993148
+    },
+    "mrid" : "d214150d-78c5-4c1a-bc3e-4aff5545013d"
+  }, {
+    "name" : "E2",
+    "r" : {
+      "value" : 0.26167977
+    },
+    "r2" : {
+      "value" : 0.26167977
+    },
+    "x" : {
+      "value" : 4.993148
+    },
+    "x2" : {
+      "value" : 4.993148
+    },
+    "r0" : {
+      "value" : 0.26167977
+    },
+    "x0" : {
+      "value" : 4.993148
+    },
+    "mrid" : "f8ae4fba-c20d-43ea-bb07-899f30780665"
+  } ],
+  "lines" : [ {
+    "name" : "Transmission Line 1",
+    "mrid" : "d55146be-1f7e-4113-94a2-08eed9e3bdf7"
+  }, {
+    "name" : "Transmission Line 2",
+    "mrid" : "99ca703f-7615-45aa-afaf-fb95c4e4b327"
+  } ],
+  "loadResponseCharacteristics" : [ {
+    "mrid" : "8ce25b1d-045a-438a-a6b7-641023339471",
+    "qconstantPower" : {
+      "value" : 2.0
+    },
+    "qvoltageExponent" : {
+      "value" : 2.0
+    },
+    "pvoltageExponent" : {
+      "value" : 2.0
+    }
+  }, {
+    "mrid" : "410fce34-0166-4e6f-8186-cc11ef521791",
+    "qconstantPower" : {
+      "value" : 2.0
+    },
+    "qvoltageExponent" : {
+      "value" : 2.0
+    },
+    "pvoltageExponent" : {
+      "value" : 2.0
+    }
+  } ],
+  "powerTransformers" : [ {
+    "name" : "T1",
+    "isPartOfGeneratorUnit" : {
+      "value" : false
+    },
+    "magBaseU" : {
+      "value" : 1.17
+    },
+    "bmagSat" : {
+      "value" : 0.2
+    },
+    "magSatFlux" : {
+      "value" : 125.0
+    },
+    "mrid" : "57e1558e-8af4-40b0-8295-2c81cebf7bdd"
+  }, {
+    "name" : "T1clone",
+    "isPartOfGeneratorUnit" : {
+      "value" : false
+    },
+    "magBaseU" : {
+      "value" : 1.17
+    },
+    "bmagSat" : {
+      "value" : 0.2
+    },
+    "magSatFlux" : {
+      "value" : 125.0
+    },
+    "mrid" : "52e807b0-8bf4-4c9a-8e1d-c640002b220c"
+  } ],
+  "powerTransformerEnds" : [ {
+    "name" : "First winding of T1",
+    "endNumber" : {
+      "value" : 1
+    },
+    "phaseAngleClock" : {
+      "value" : 0
+    },
+    "grounded" : {
+      "value" : true
+    },
+    "ratedU" : {
+      "value" : 115.0
+    },
+    "ratedS" : {
+      "value" : 16.0
+    },
+    "g" : {
+      "value" : 1.436673E-6
+    },
+    "b" : {
+      "value" : 8.468809E-6
+    },
+    "x" : {
+      "value" : 86.78906
+    },
+    "r" : {
+      "value" : 4.3911133
+    },
+    "mrid" : "fea03cc1-fb33-4af3-97b7-3a8d69c36379"
+  }, {
+    "name" : "Second winding of T1",
+    "endNumber" : {
+      "value" : 2
+    },
+    "phaseAngleClock" : {
+      "value" : 11
+    },
+    "grounded" : {
+      "value" : false
+    },
+    "ratedU" : {
+      "value" : 11.0
+    },
+    "ratedS" : {
+      "value" : 16.0
+    },
+    "g" : {
+      "value" : 1.570248E-4
+    },
+    "b" : {
+      "value" : 9.2561985E-4
+    },
+    "x" : {
+      "value" : 0.7940625
+    },
+    "r" : {
+      "value" : 0.04017578
+    },
+    "mrid" : "401fd43d-6230-4dca-8318-9464abf13586"
+  }, {
+    "name" : "First winding of T1clone",
+    "endNumber" : {
+      "value" : 1
+    },
+    "phaseAngleClock" : {
+      "value" : 0
+    },
+    "grounded" : {
+      "value" : true
+    },
+    "ratedU" : {
+      "value" : 115.0
+    },
+    "ratedS" : {
+      "value" : 16.0
+    },
+    "g" : {
+      "value" : 1.436673E-6
+    },
+    "b" : {
+      "value" : 8.468809E-6
+    },
+    "x" : {
+      "value" : 86.78906
+    },
+    "r" : {
+      "value" : 4.3911133
+    },
+    "mrid" : "8039574e-a68f-499e-84e5-f439484237a8"
+  }, {
+    "name" : "Second winding of T1clone",
+    "endNumber" : {
+      "value" : 2
+    },
+    "phaseAngleClock" : {
+      "value" : 11
+    },
+    "grounded" : {
+      "value" : false
+    },
+    "ratedU" : {
+      "value" : 11.0
+    },
+    "ratedS" : {
+      "value" : 16.0
+    },
+    "g" : {
+      "value" : 1.570248E-4
+    },
+    "b" : {
+      "value" : 9.2561985E-4
+    },
+    "x" : {
+      "value" : 0.7940625
+    },
+    "r" : {
+      "value" : 0.04017578
+    },
+    "mrid" : "97e72856-efe0-40ed-96ea-abf2b49cdda2"
+  } ],
+  "substations" : [ {
+    "name" : "Substation 1",
+    "mrid" : "c4b66487-d98a-4d8a-87f4-142124b18e14"
+  } ],
+  "svVoltages" : [ {
+    "v" : {
+      "value" : 115.0
+    },
+    "angle" : {
+      "value" : 0.0
+    },
+    "mrid" : "60777e9f-9dc6-42e8-b107-e286b78ab302"
+  }, {
+    "v" : {
+      "value" : 115.0
+    },
+    "angle" : {
+      "value" : 0.0
+    },
+    "mrid" : "e205e0e1-42f4-4c6d-9765-5c0941242b90"
+  } ],
+  "terminals" : [ {
+    "name" : "E1 1",
+    "seq" : {
+      "value" : 1
+    },
+    "mrid" : "79ddb2de-0104-4812-84f0-45d6c1440a97"
+  }, {
+    "name" : "Line1 1",
+    "seq" : {
+      "value" : 1
+    },
+    "mrid" : "1b755a60-29bf-4f0d-a522-f9a269611678"
+  }, {
+    "name" : "Line1 2",
+    "seq" : {
+      "value" : 2
+    },
+    "mrid" : "158c5629-8197-434e-bcb8-be30b2b67c85"
+  }, {
+    "name" : "Q1 1",
+    "seq" : {
+      "value" : 1
+    },
+    "mrid" : "12674fad-470b-435f-ab30-7b6106a437e6"
+  }, {
+    "name" : "Q1 2",
+    "seq" : {
+      "value" : 2
+    },
+    "mrid" : "e8e3eaf8-b740-43d2-870f-7e445c2c9b26"
+  }, {
+    "name" : "BUS1 1",
+    "seq" : {
+      "value" : 1
+    },
+    "mrid" : "ee7eb5dd-7919-45f9-8a18-7ec36184b895"
+  }, {
+    "name" : "Q2 1",
+    "seq" : {
+      "value" : 1
+    },
+    "mrid" : "3cf64792-979f-4829-b1ec-b4da5d704245"
+  }, {
+    "name" : "Q2 2",
+    "seq" : {
+      "value" : 2
+    },
+    "mrid" : "401f9fc8-e476-4536-b4ee-5b60ecd748a0"
+  }, {
+    "name" : "QS1 1",
+    "seq" : {
+      "value" : 1
+    },
+    "mrid" : "94838dc1-ad91-4f40-997f-59055cd00124"
+  }, {
+    "name" : "QS1 2",
+    "seq" : {
+      "value" : 2
+    },
+    "mrid" : "b71a2b32-dbb2-4ef9-ae0b-b7ebc59c022e"
+  }, {
+    "name" : "BUS3 1",
+    "seq" : {
+      "value" : 1
+    },
+    "mrid" : "b092c07b-3165-465e-a0cc-3d11a5d12894"
+  }, {
+    "name" : "Q5 1",
+    "seq" : {
+      "value" : 1
+    },
+    "mrid" : "c6508cd5-ea84-4bb7-9871-301c99212d5a"
+  }, {
+    "name" : "Q5 2",
+    "seq" : {
+      "value" : 2
+    },
+    "mrid" : "82340348-9f0c-43cd-a3d0-ab2027b3d08b"
+  }, {
+    "name" : "Q6 1",
+    "seq" : {
+      "value" : 1
+    },
+    "mrid" : "66d340d3-af1c-4ab0-a773-97b5b1c6bdfe"
+  }, {
+    "name" : "Q6 2",
+    "seq" : {
+      "value" : 2
+    },
+    "mrid" : "46fefd62-0995-49fd-9d08-70bf04ec2cbe"
+  }, {
+    "name" : "Line2 1",
+    "seq" : {
+      "value" : 1
+    },
+    "mrid" : "39badd6d-3eb5-47c5-8442-22373e94d61b"
+  }, {
+    "name" : "Line2 2",
+    "seq" : {
+      "value" : 2
+    },
+    "mrid" : "6793d965-9021-4247-9160-4667ec0eab69"
+  }, {
+    "name" : "E2 1",
+    "seq" : {
+      "value" : 1
+    },
+    "mrid" : "ff0c4019-0c17-4631-b09d-ecfe2b82580b"
+  }, {
+    "name" : "T1 1",
+    "seq" : {
+      "value" : 1
+    },
+    "mrid" : "6875d367-1acc-4fbf-991a-420db71a5b6d"
+  }, {
+    "name" : "T1 2",
+    "seq" : {
+      "value" : 2
+    },
+    "mrid" : "b8601e64-966b-4120-ad23-144d88700ed4"
+  }, {
+    "name" : "T1clone 1",
+    "seq" : {
+      "value" : 1
+    },
+    "mrid" : "534b9e59-2d67-4670-a8cf-211d097a0a10"
+  }, {
+    "name" : "T1clone 2",
+    "seq" : {
+      "value" : 2
+    },
+    "mrid" : "0ef9750d-7825-4a33-aec9-f132cd8176af"
+  }, {
+    "name" : "Q3 1",
+    "seq" : {
+      "value" : 1
+    },
+    "mrid" : "549c04d6-c5f5-45b6-8ddc-af8b090a3f38"
+  }, {
+    "name" : "Q3 2",
+    "seq" : {
+      "value" : 2
+    },
+    "mrid" : "d7f0a3de-e841-4e62-9a98-53aa7aace87f"
+  }, {
+    "name" : "BUS2 1",
+    "seq" : {
+      "value" : 1
+    },
+    "mrid" : "c4723512-ec8f-4323-9f3f-b9659be68e56"
+  }, {
+    "name" : "Q4 1",
+    "seq" : {
+      "value" : 1
+    },
+    "mrid" : "7ec5238d-54a2-4c62-98cb-4c2ad0702a9a"
+  }, {
+    "name" : "Q4 2",
+    "seq" : {
+      "value" : 2
+    },
+    "mrid" : "40e7a4d4-3169-4d7b-b9fc-f5d0aea51a30"
+  }, {
+    "name" : "QS2 1",
+    "seq" : {
+      "value" : 1
+    },
+    "mrid" : "07e75b69-dad6-470b-adf1-b8fbdd7978a2"
+  }, {
+    "name" : "QS2 2",
+    "seq" : {
+      "value" : 2
+    },
+    "mrid" : "ec6e9108-53f6-499c-9244-01fe186785cd"
+  }, {
+    "name" : "L1 1",
+    "seq" : {
+      "value" : 1
+    },
+    "mrid" : "70f759dc-9819-4d57-ab33-a534f189a101"
+  }, {
+    "name" : "BUS4 1",
+    "seq" : {
+      "value" : 1
+    },
+    "mrid" : "655aad05-31d7-404d-9115-80506cded668"
+  }, {
+    "name" : "Q7 1",
+    "seq" : {
+      "value" : 1
+    },
+    "mrid" : "4b543805-1567-4d20-982a-11d3d151a731"
+  }, {
+    "name" : "Q7 2",
+    "seq" : {
+      "value" : 2
+    },
+    "mrid" : "66ada0f7-ed12-42bb-b026-3c1a42bf19fc"
+  }, {
+    "name" : "Q8 1",
+    "seq" : {
+      "value" : 1
+    },
+    "mrid" : "de48f62c-bf63-4ec9-b78a-7cdb64f234c6"
+  }, {
+    "name" : "Q8 2",
+    "seq" : {
+      "value" : 2
+    },
+    "mrid" : "b1e73f37-e187-45d1-99a1-1de770c3a6bc"
+  }, {
+    "name" : "L2 1",
+    "seq" : {
+      "value" : 1
+    },
+    "mrid" : "c8ebc50c-7990-4e1d-a887-223ec16ba435"
+  } ],
+  "topologicalNodes" : [ {
+    "mrid" : "7641f6de-db6c-4218-b7d1-2e0f12d4079f"
+  }, {
+    "mrid" : "9bb14fb2-bb32-4552-a92a-517586464235"
+  }, {
+    "mrid" : "c7e115a2-94fa-4ae3-acd5-21946c02484e"
+  }, {
+    "mrid" : "eed48b99-eb7f-4e5e-88d2-b360e5f0c243"
+  }, {
+    "mrid" : "a7cd5037-3820-4d0b-840e-818f68b1bbc6"
+  }, {
+    "mrid" : "1a351862-25ec-4231-a95a-857e242e14c3"
+  } ],
+  "voltageLevels" : [ {
+    "mrid" : "7e3860fe-15e8-4d3a-bdeb-01321c768bf7"
+  }, {
+    "mrid" : "e0a21a60-5d62-48f5-8b8e-4d3a6fb9795b"
+  } ]
+}
